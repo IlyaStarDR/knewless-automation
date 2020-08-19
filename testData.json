@@ -1,0 +1,8 @@
+{
+    "appURL": "https://knewless.tk/",
+    "loginRoute": "/login",
+    "email": "clarkkent@mail.com",
+    "password":"clarkkent",
+    "invalidEmail":"test123@test1.com",
+    "invalidPassword":"_01wroe"
+}
