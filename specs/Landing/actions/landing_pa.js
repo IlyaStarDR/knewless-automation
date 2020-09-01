@@ -4,7 +4,7 @@ const page = new LandingPage();
 
 class LandingActions{
     
-    logIn(){
+    clicklogInButton(){
         this.waitForLogInButton();
         page.loginBtn.click();
     }

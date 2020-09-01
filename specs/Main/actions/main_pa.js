@@ -6,6 +6,21 @@ class MainActions{
         page.profileBox.waitForDisplayed(2000);
         return page.profileBox.isDisplayed();
     }
+
+    clickOnProfileMenu(){
+        page.profileMenu.waitForDisplayed(2000);
+        page.profileMenu.click();
+    }
+
+    clickOnAccountSettings() {
+        page.accountSettings.waitForDisplayed(2000);
+        page.accountSettings.click();
+    }
+
+    getNotificationMessage() {
+        page.notification.waitForDisplayed(2000);
+        return page.notification.getText();
+    }
 }
 
 module.exports = MainActions;

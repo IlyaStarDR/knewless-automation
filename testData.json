@@ -4,5 +4,12 @@
     "email": "clarkkent@mail.com",
     "password":"clarkkent",
     "invalidEmail":"test123@test1.com",
-    "invalidPassword":"_01wroe"
+    "invalidPassword":"_01wroe",
+    "accountSettingsAuthorEmail":"authorauthor@mail.com",
+    "accountSettingsAuthorPassword":"&Yui3!G6",
+    "accountSettingsStudentEmail":"sdutentacc@mail.com",
+    "accountSettingsStudentPassword":"y3jU7eR6!",
+    "emailURL": "https://10minutemail.net/error-due.html",
+    "registerRoute": "/register",
+    "registerPassword": "123123test"
 }

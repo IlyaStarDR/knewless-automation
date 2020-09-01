@@ -16,7 +16,7 @@ class LoginActions{
         page.passwordInput.setValue(value);
     };
 
-    LogIn(){
+    clickLogInButton(){
         this.waitForLogInButton();
         page.loginButton.click();
     }
@@ -43,6 +43,12 @@ class LoginActions{
         const url = new URL(browser.getUrl());
         const actualUrl = url.host.toString() + url.pathname.toString();
         return actualUrl.includes(route);
+    }
+
+    logIn(email, password) {
+        this.enterEmail(email);
+        this.enterPassword(password);
+        this.clickLogInButton();
     }
 };
 

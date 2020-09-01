@@ -21,7 +21,7 @@ describe.only('login page tests', () =>{
         browser.reloadSession();
     });
 
-    it('should not be able to log in with invalid credentials', () =>{
+    xit('should not be able to log in with invalid credentials', () =>{
         pageSteps.enterEmail(credentials.invalidEmail);
         pageSteps.enterPassword(credentials.invalidPassword);
         pageSteps.LogIn();
@@ -29,7 +29,7 @@ describe.only('login page tests', () =>{
         assert.equal(pageSteps.redirectedTo(credentials.loginRoute),true);
     });
 
-    it('should be able to log in with valid credentials', () =>{
+    xit('should be able to log in with valid credentials', () =>{
         pageSteps.enterEmail(credentials.email);
         pageSteps.enterPassword(credentials.password);
         pageSteps.LogIn();
